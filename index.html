@@ -6,13 +6,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-  <link href="style.css">
+  <link rel="stylesheet" href="style_1.css">
   <title>Todo App</title>
 </head>
-<body class="body">
+<body>
   <section class="contant">
     <div class="container">
-      <img  
+      <img 
         class="contant-img" 
         src="eisenhower-matrix.jpg" 
         alt="The Eisenhower matrix" 
@@ -42,18 +42,14 @@
           <label class="tasks">Pay Bills</label>
           <input class="input-task edit" type="text">
           <button class="edit-btn btn">Edit</button>
-          <button class="delete-btn btn">
-            <img class="delete-btn-img" src="remove.svg">
-          </button>
+          <button class="delete-btn btn"><img class="delete-btn-img" src="remove.svg"></button>
         </li>
         <li class="tasks-item edit-mode">
           <input class="checkbox" type="checkbox">
           <label class="tasks">Go Shopping</label>
-          <input class="input-task edit" type="text" value="Go Shopping">
+          <input class="input-task edit" type="text" value="Go Shopping" >
           <button class="edit-btn btn">Save</button>
-          <button class="delete-btn btn">
-            <img class="delete-btn-img" src="remove.svg">
-          </button>
+          <button class="delete-btn btn"><img class="delete-btn-img" src="remove.svg"></button>
         </li>
       </ul>
       <h3 class="title">Completed</h3>
@@ -61,15 +57,14 @@
         <li class="tasks-item">
           <input class="checkbox" type="checkbox" checked>
           <label class="tasks">See the Doctor</label>
-          <input class="input-task edit" type="text">
+          <input class="input-task edit" type="text" >
           <button class="edit-btn btn">Edit</button>
-          <button class="delete-btn btn">
-            <img class="delete-btn-img" src="remove.svg">
-          </button>
+          <button class="delete-btn btn"><img class="delete-btn-img"src="remove.svg"></button>
         </li>
       </ul>
     </div>
   </section>
-<script src="app.js"></script>
+
+  <script src="app_1.js"></script>
 </body>
 </html>
